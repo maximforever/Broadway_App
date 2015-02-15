@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   get '/' => 'catalog#home'
 
+  get '/test' => 'catalog#test'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
